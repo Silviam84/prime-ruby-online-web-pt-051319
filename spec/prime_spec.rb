@@ -1,8 +1,8 @@
-require_relative './spec_helper'
-require_relative '../prime.rb'
-
-describe "prime?" do
-  it 'returns true for prime numbers' do
+def prime
+  prime => (2,3,4,5,6,)
+ .if (< , 1 ) false
+  
+    it 'returns true for prime numbers' do
     expect(prime?(2)).to be(true)
     expect(prime?(3)).to be(true)
     expect(prime?(11)).to be(true)
@@ -10,7 +10,7 @@ describe "prime?" do
   end
 
   it 'returns false for non-prime numbers' do
-    expect(prime?(-1)).to be(false), "Be sure to account for negative numbers!"
+    expect(prime?(-1))to be(false), "Be sure to account for negative numbers!"
     expect(prime?(0)).to be(false)
     expect(prime?(1)).to be(false)
     expect(prime?(4)).to be(false)
