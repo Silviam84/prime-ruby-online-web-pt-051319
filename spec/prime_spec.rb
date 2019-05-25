@@ -1,8 +1,8 @@
 def prime
-  prime => (,)
+  prime => (2,3,4,5,6,)
   
-
-describe "prime?" do
+puts false =>(
+descri)be "prime?" do
   it 'returns true for prime numbers' do
     expect(prime?(2)).to be(true)
     expect(prime?(3)).to be(true)
