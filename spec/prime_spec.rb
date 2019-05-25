@@ -1,9 +1,8 @@
 def prime
   prime => (2,3,4,5,6,)
+ .if (< , 1 ) false
   
-puts false =>(
-descri)be "prime?" do
-  it 'returns true for prime numbers' do
+    it 'returns true for prime numbers' do
     expect(prime?(2)).to be(true)
     expect(prime?(3)).to be(true)
     expect(prime?(11)).to be(true)
